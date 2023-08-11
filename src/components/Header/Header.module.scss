@@ -1,0 +1,29 @@
+.container {
+    background: linear-gradient(90deg, #67c0f8 0%, #5449d2 100%);
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.item {
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-left:2rem;
+
+    &_home {
+        color: white;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+}
+
+.button{
+    background: none;
+    border: none;
+}
+
+.perfilLogout{
+    display: flex;
+}

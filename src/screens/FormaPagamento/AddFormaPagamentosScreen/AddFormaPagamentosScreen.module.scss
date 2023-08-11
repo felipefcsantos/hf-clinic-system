@@ -1,0 +1,29 @@
+.container{
+    margin: 1rem;
+}
+
+.titulo{
+    margin: 1rem;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 30rem;
+}
+
+.botaoSalvar{
+    background: rgb(4, 152, 80);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: .7rem;
+    margin: 1rem;
+
+    &:hover{
+        cursor: pointer;
+        background: rgba(4, 152, 80, 0.656);
+    }
+}

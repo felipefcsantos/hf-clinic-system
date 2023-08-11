@@ -1,0 +1,19 @@
+.container {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    width: 33%;
+
+    &:hover {
+        box-shadow: 2px 2px 7px black;
+    }
+
+    @media(max-width: 425px) {
+        width: 70%;
+    }
+}

@@ -1,0 +1,14 @@
+.botaoAdicionar{
+    background: rgb(4, 152, 80);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 3.7rem;
+    padding: .7rem;
+
+    &:hover{
+        cursor: pointer;
+        background: rgba(4, 152, 80, 0.656);
+    }
+}

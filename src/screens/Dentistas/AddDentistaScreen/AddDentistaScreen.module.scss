@@ -1,0 +1,30 @@
+.container{
+    min-height: calc(100vh - 157px);
+}
+
+.formulario{
+    margin: 3rem;
+}
+
+.formulario input{
+    margin: 0 1rem;
+}
+
+.nome{
+    width: 35rem;
+}
+
+.botaoSalvar{
+    background: rgb(4, 152, 80);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 2rem 0;
+    padding: .7rem;
+
+    &:hover{
+        cursor: pointer;
+        background: rgba(4, 152, 80, 0.656);
+    }
+}
